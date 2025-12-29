@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="" lang="{{lang}}">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes" />
+        <base href="{{baseTag.href}}" target="{{baseTag.target}}" />
+
+        {{#if title}}
+        <title>{{title}}</title>
+        {{/if}}
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico?_wwcv={{cacheVersion}}" />
+
+        <link rel="manifest" href="manifest.json?_wwcv=1" />
+        <meta name="theme-color" content="" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="/fonts/Phosphor/font.css?_wwcv=1" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy:wght@400&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<style>:root{ --ww-default-font-family: 'Poppins', sans-serif }</style>
+        <style>
+:root {
+--940e3bde-293f-4dc0-9697-534ffc2e9b3f: #101828;
+--1972e02c-2fdd-46f5-88d5-af5ea04818a3: 600 60px/72px var(--ww-default-font-family, sans-serif);
+--88ef110a-49ab-4390-88c8-737e28a0ada2: 600 16px/24px var(--ww-default-font-family, sans-serif);
+--b1e22e8d-bd54-4cb6-8c66-d3efd2fc1f57: 500 14px/20px var(--ww-default-font-family, sans-serif);
+--c8e9ba2f-3d8a-4093-aec1-7cc71d12b18b: 600 18px/28px var(--ww-default-font-family, sans-serif);
+--d73521bc-4b82-4a05-9080-adfff171fd62: 400 20px/30px var(--ww-default-font-family, sans-serif);
+--d0e54a72-a9f7-44f0-883b-7664fc7b7b14: 600 20px/30px var(--ww-default-font-family, sans-serif);
+--e1840dc1-3011-4256-b61c-2a8f89cf2d54: 400 16px/24px var(--ww-default-font-family, sans-serif);
+--f9c1cf0d-b37c-4ca2-9589-e9cbbb3af479: 400 48px/60px var(--ww-default-font-family, sans-serif);
+--79bf1588-1049-4153-8ab1-05ed25f1fb41: 600 36px/44px var(--ww-default-font-family, sans-serif);
+--4cbda980-c0c0-49ef-bcc6-7d216970b0f4: 400 16px/24px var(--ww-default-font-family, sans-serif);
+--44c258bc-dc20-4e27-b9fe-d575840ffb9b: 400 18px/28px var(--ww-default-font-family, sans-serif);
+--a3e0c135-d450-465a-88d5-dec78f49ed65: 600 30px/38px var(--ww-default-font-family, sans-serif);
+--6bb71c4f-4c0b-43f8-9aa5-c3151282e0c2: 500 16px/24px var(--ww-default-font-family, sans-serif);
+--dc2938dc-b6d0-47f0-8b54-e3393797a1bb: #6941C6;
+--7b97dce1-65ee-4f25-9017-255466370a22: #7F56D9;
+--72fde2c4-7830-4326-8bd5-8a3c82399621: #FFFFFF;
+--fa9f934a-03ce-4866-9b26-b5fa6fde9ec9: #9E77ED;
+--dcfafe3d-191a-4b70-9e9c-9c9e3ec4ecce: #F9F5FF;
+--7cfb0bbb-9ca6-4289-90fa-4d6829c741dc: #475467;
+--f4c3fbf4-75a3-4dd9-a81d-f1afc38d58f6: #344054;
+--fbd3b863-d121-4e5b-9524-1fc5d6d514f1: 700 24px/24px var(--ww-default-font-family, sans-serif);
+--611b6f1a-e888-4f8f-8c62-52f7c176699f: #EAECF0;
+--e0d4b9dd-5074-4969-91e4-c7c3300bb658: #81C784;
+--70799203-12d1-4cba-a88c-7ba6e0006d6c: #66BB6A;
+--65b1be89-15c6-4fd3-b839-235d0f13cef7: #4CAF50;
+--2df5b48d-6f41-4279-9c6f-705246fa7c6b: #A5D6A7;
+--eb543455-4088-498e-b067-787cf4108d9c: 600 48px/56px var(--ww-default-font-family, sans-serif);
+--219d09af-4aa8-409e-8182-634fc8a3d754: #E4E4E7;
+--5f486176-e036-4033-8752-af576aee8a7f: #34D399;
+--7045e167-a987-460f-acd2-1da31138f6e4: #047857;
+--670a336c-5a3e-4d1c-a1b3-c514e35225f9: #35967c;
+--e9f74963-90b0-4590-9712-b2de862ef455: #1c1c1c;
+--ead412b7-075c-4642-a1b9-b6f48672c0b4: #1C1C1C80;
+--599475c2-3436-4fe1-b8b1-0ab0de2ac434: #EEEEEE;
+--53b850d5-accf-4c0d-9bad-b1ee6af53b78: #545454;
+--13aec92b-f7d6-409e-b4e3-56ad55176278: 400 14px/20px var(--ww-default-font-family, sans-serif);}
+.ww-app-theme-dark {
+}
+</style>
+        <link href="https://cdn.weweb.app/public/libs/weweb-icons/css/weweb-icons.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/heroicons/1.0.0/style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/phosphor/1.0.0/regular/phosphor-style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+        {{#alternateLinks}}
+        <link rel="{{rel}}" hreflang="{{hreflang}}" href="{{href}}" />
+        {{/alternateLinks}} {{#if structuredData}}
+        <script type="application/ld+json">
+            {{{structuredData}}}
+        </script>
+        {{/if}} {{{scripts.head}}} {{#meta}} {{#if name}}
+        <meta name="{{name}}" content="{{content}}" />
+        {{/if}} {{#if itemprop}}
+        <meta itemprop="{{itemprop}}" content="{{content}}" />
+        {{/if}} {{#if property}}
+        <meta property="{{property}}" content="{{content}}" />
+        {{/if}} {{/meta}}
+    </head>
+    <body style="margin: 0; font-family: var(--ww-default-font-family, unset)">
+        <noscript>
+            <strong>
+                We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to
+                continue.
+            </strong>
+        </noscript>
+        <div id="app"></div>
+        {{{scripts.body}}}
+        <script type="module" src="@/_front/main.js"></script>
+    </body>
+</html>
