@@ -15,5 +15,12 @@
             "domain": "x8ki-letl-twmt.n7.xano.io",
             "customDomain": ""
         }
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "479bd5cf-9e98-4c2a-8fee-24f642d40447",
+        "name": "Supabase Auth",
+        "designId": "7494438b-0591-4edd-92cc-3d24a08e7019",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {}
     }
 }
